@@ -1,0 +1,34 @@
+#Player {
+  padding-top: 40px;
+  min-height: 90vh;
+  .player {
+  }
+  .title {
+    padding: 10px;
+  }
+  .servers {
+    .server {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.c-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .playerConfigs {
+    min-width: 450px;
+    .MuiPaper-rounded {
+      overflow: hidden;
+    }
+    .configs-title {
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+}
